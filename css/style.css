@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+    .embed-responsive {
+        height: 200px; /* Ajusta la altura para dispositivos móviles */
+    }
+}
