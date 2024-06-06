@@ -1,3 +1,14 @@
+
+
+/* Estilos por defecto */
+/* body {
+    margin: 0;
+  font-family: 'Roboto', sans-serif;
+} */
+
+/* Añade tu propio estilo a partir de aquí */
+
+
 @media (max-width: 767px) {
     .embed-responsive {
         height: 200px; /* Ajusta la altura para dispositivos móviles */
