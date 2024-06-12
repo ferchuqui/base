@@ -11,7 +11,7 @@ body {
 /* Añade tu propio estilo a partir de aquí */
 
 
-.navbar img {
+.navbar-brand img {
     height: 5rem;
     width: auto;
 }
