@@ -7,20 +7,18 @@
     box-sizing: border-box;
 }
 
-body {
+nav {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     margin: 0;
-}
+    }
 .navbar-brand img {
     height: 5rem;
     width: auto;
-    max-height: 5rem;
+    /* max-height: 5rem; */
 }
 
-.nav{
-    background-color: red;
-}
+
 /* Añade tu propio estilo a partir de aquí */
 
 
