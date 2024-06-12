@@ -1,16 +1,19 @@
 
 
 /* Estilos por defecto */
-/* body {
+
+body {
     margin: 0;
   font-family: 'Roboto', sans-serif;
-} */
+  font-weight: 500;
+}
 
 /* Añade tu propio estilo a partir de aquí */
 
 
-.navbar-brand img {
+.navbar img {
     height: 5rem;
+    width: auto;
 }
 
 @media (max-width: 767px) {
