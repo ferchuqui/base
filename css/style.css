@@ -1,7 +1,17 @@
 
 
 /* Estilos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
 .navbar-brand img {
     height: 5rem;
     width: auto;
