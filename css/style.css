@@ -1,9 +1,7 @@
 
 
 /* Estilos por defecto */
-*{
-    background-color: red;
-}
+
 
 body {
     margin: 0;
@@ -17,6 +15,7 @@ body {
 .navbar-brand img {
     height: 5rem;
     width: auto;
+    max-height: 5rem;
 }
 
 @media (max-width: 767px) {
