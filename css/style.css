@@ -78,6 +78,7 @@ ol, ul {
     text-align: center;
     flex: 1;
     color: #fff;
+    justify-content: space-around;
 }
 
 #vision {
@@ -93,6 +94,37 @@ ol, ul {
 #valores {
     background-color: #e74c3c; /* Rojo */
     display: block;
+}
+
+.box {
+    flex: 1 1 calc(33.333% -40px);
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+}
+.box h4{
+    margin: 10px 0;
+}
+.box p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+#respeto {
+    background-color: #3498db;
+}
+#honestidad{
+    background-color: #2ecc71;
+}
+#solidaridad{
+    background-color: #e74c3c;
+}
+#responsabilidad{
+    background-color: #f1c40f;
 }
 
 
