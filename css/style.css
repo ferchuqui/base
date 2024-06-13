@@ -41,7 +41,36 @@ ol, ul {
 
 
 /* Añade tu propio estilo a partir de aquí */
-
+#contacto{
+    padding: 20px;
+    background-color: #f9f9f9;
+    border 1px solid #ccc;
+}
+#contacto form div {
+    margin-bottom: 15px;
+}
+#contacto label {
+    display: block;
+    margin-bottom: 5px;
+}
+#contacto input, #contacto textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#contacto button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#contacto button:hover{
+    background-color: #0056B3;
+}
 
 
 

@@ -125,13 +125,31 @@
 
 </div>
 
-<div id="contacto" class="container mt-4 text-center">
-    <h2>Contactenos</h2>
-<!--     <p>Visite nuestras oficinas ubicadas en Trafalgar Square, London.</p>
-        <div class="embed-responsive embed-responsive-16by9 mx-auto" style="max-width: 800px;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.447129126137!2d-58.410560084199984!3d-34.603684665115785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3f7c67f1b5%3A0xb8489e1e3ad1b5a3!2sAv.%20Corrientes%202717%2C%20C1046%20CABA%2C%20Argentina!5e0!3m2!1sen!2suk!4v1623326353782!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div> -->
-</div>
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>Por favor, completa el siguiente formulario para ponerte en contacto con nosotros:</p>
+    <form action="/submit_contact_form" method="post">
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="subject">Asunto:</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
+        <div>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</section>
 
 <!-- Bootstrap and jQuery JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
