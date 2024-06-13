@@ -72,6 +72,29 @@ ol, ul {
     background-color: #0056B3;
 }
 
+.figure {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    color: #fff;
+}
+
+#vision {
+    background-color: #3498db; /* Azul */
+    display: block;
+}
+
+#mision {
+    background-color: #2ecc71; /* Verde */
+    display: block;
+}
+
+#valores {
+    background-color: #e74c3c; /* Rojo */
+    display: block;
+}
+
 
 
 @media (max-width: 767px) {
