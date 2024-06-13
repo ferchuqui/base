@@ -22,12 +22,16 @@ ol, ul {
 }
 
 
-nav {
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     margin: 0;
     }
-    
+
 .navbar-brand img {
     height: 5rem;
     width: auto;
