@@ -44,7 +44,7 @@ ol, ul {
 #contacto{
     padding: 20px;
     background-color: #f9f9f9;
-    border 1px solid #ccc;
+    border: 1px solid #ccc;
 }
 #contacto form div {
     margin-bottom: 15px;
