@@ -163,7 +163,7 @@ ol, ul {
 .card .ul li{
     margin: 5px 0;
 }
-.card button{
+.card a{
     background-color: #007BFF;
     color: white;
     border: none;
@@ -176,6 +176,7 @@ ol, ul {
     background-color: #0056B3;
 }
 
+
 /* @media (max-width: 767px) {
     .embed-responsive {
         height: 200px;
@@ -186,5 +187,5 @@ ol, ul {
         width: 40%;
         margin: 10px 0;
     }
-   
+
  }
