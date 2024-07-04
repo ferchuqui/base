@@ -41,8 +41,12 @@ ol, ul {
 
 #section2, #section1, #section3, #section4{
     padding-top: 200px;
-    
+    margin-bottom: -200px;
 
+
+}
+#section4 {
+    margin-bottom: 20px; /* Ajusta este valor según sea necesario */
 }
 /* Añade tu propio estilo a partir de aquí */
 #contacto{
