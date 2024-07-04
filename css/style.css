@@ -130,7 +130,7 @@ ol, ul {
     }
 
 
-    .card{
+/*     .card{
         background: #fff;
         border: 1px solid #ddd;
         border-radius: 8px;
@@ -175,7 +175,7 @@ ol, ul {
 }
 .card button:hover{
     background-color: #0056B3;
-}
+} */
 
 
 /* @media (max-width: 767px) {
