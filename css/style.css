@@ -122,12 +122,13 @@ ol, ul {
         margin: 0 auto;
         padding: 0 20px;
     }
-    .container {
+    .container2 {
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
         justify-content: left;
     }
+
 
     .card{
         background: #fff;
