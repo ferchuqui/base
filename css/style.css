@@ -41,7 +41,9 @@ ol, ul {
     width: auto;
     /* max-height: 5rem; */
 }
-
+#section1 {
+    padding-top: 100px; /* Ajusta este valor según la altura real de tu navbar */
+}
 
 #section4 {
     margin-bottom: 20px; /* Ajusta este valor según sea necesario */
