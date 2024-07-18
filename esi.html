@@ -4,12 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <meta name="description" content="A few words about the site" /> -->
     <title>Instituto Elisa</title>
-    <!-- Bootstrap CSS -->
-     <!-- esto es un cambio de un cambio-->
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for social media icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
@@ -17,18 +16,18 @@
 
 <body>
     <style>
-        /* Ajusta los márgenes y el padding para reducir el espacio en blanco */
         .card {
             margin-top: 50px;
             padding-top: 50px;
-            margin-bottom: -200px; /* Ajusta este valor según sea necesario */
-            padding-bottom: -150px; /* Ajusta este valor según sea necesario */
         }
     </style>
     <nav class="navbar navbar-expand-lg navbar-light bg-light container mt-0 fixed-top">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand d-flex flex-row success " href="index.html">
             <img src="img/logocentro.png" alt="Logo" class="img-fluid" style="max-height: 80px;">
-             Instituto Elisa
+             <div class="d-flex flex-column justify-content-center">
+                <span class="text-green h5">Instituto Elisa</span>
+                <span class="text-blue h6">Educando hacia el futuro</span>
+            </div>
         </a>
 
 
@@ -39,16 +38,13 @@
         <div class="collapse navbar-collapse" id="navbarNav"> <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link" href="index.html#section2">Cursos</a></li>
-                 <!-- <li class="nav-item"><a class="nav-link" href="#section3">Section 3</a></li> -->
                  <li class="nav-item"><a class="nav-link" href="index.html#section4">¿Quienes somos?</a></li>
                 <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
             </ul>
             <div class="social ">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/institutoeducativoelisa/"><i class="fab fa-instagram"></i></a></li>
-                    <!-- <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-twitter"></i></a></li> -->
                     <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/puebloalegreeducacion/"><i class="fab fa-facebook-f"></i></a></li>
-                    <!-- <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-youtube"></i></a></li> -->
                 </ul>
             </div>
 
@@ -68,14 +64,12 @@
                     <img src="img/teatro.jpeg" class="d-block w-100" alt="Seminario sobre Juegos Teatrales">
                     <div class="carousel-caption d-none d-md-block">
                         <h2>Seminario de Juegos Teatrales</h2>
-                        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, praesentium?</p> -->
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="img/10.jpg" class="d-block w-100" alt="Seminario sobre Objetos Intermediarios">
                     <div class="carousel-caption d-none d-md-block">
                         <h2>Seminario de Objetos Intermediarios</h2>
-                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, maiores.</p> -->
                     </div>
 
                 </div>
@@ -83,7 +77,6 @@
                     <img src="img/2.jpg" class="d-block w-100" alt="Seminario sobre ESI">
                     <div class="carousel-caption d-none d-md-block">
                         <h2>Seminario de Esi</h2>
-                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, soluta.</p> -->
                     </div>
 
                 </div>
@@ -91,7 +84,6 @@
                     <img src="img/bullying.jpeg" class="d-block w-100" alt="Seminario sobre Bullying">
                     <div class="carousel-caption d-none d-md-block">
                         <h2>Seminario sobre Bullying</h2>
-                        <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, tenetur.</p> -->
                     </div>
 
                 </div>
@@ -118,7 +110,7 @@
             <h5 class="card-title">En qué Consiste el Curso y sus Objetivos:</h5>
             <p class="card-text">El Taller de Educación Sexual Integral (ESI) está diseñado para capacitar a educadores en la implementación de la ESI en sus instituciones. A lo largo de ocho encuentros, los participantes explorarán temas esenciales que abarcan desde el marco legal de la ESI hasta la prevención de la violencia de género.</p>
             <a href="#detallesCurso2" class="btn btn-primary" data-toggle="collapse">Leer más</a>
-            <div id="detallesCurso2" class="collapse">
+            <div id="detallesCurso2" class="collapse mt-2">
                 <p>El curso proporcionará:<br>
 
                 - Comprensión del Marco Legal:Estudio de la Ley Nacional 26.150 y otras normativas relevantes.
@@ -127,7 +119,7 @@
                 - Prevención y Abordaje de la Violencia de Género: Estrategias para identificar y tratar la violencia de género en el ámbito escolar.
 </p>
             </div>
-            <h5>¿A Quién Está Dirigido?</h5>
+            <h5 class="mt-4">¿A Quién Está Dirigido?</h5>
             <ul>
                 <li>Este taller está dirigido a:
 
@@ -136,9 +128,8 @@
                 - Estudiantes de Carreras Afines: Personas que están formándose en áreas relacionadas con la educación y la salud.
                 - Profesionales de la Salud y Educación: Psicólogos, acompañantes terapéuticos, psicomotricistas, pedagogos, psicopedagogos, fisioterapeutas, terapeutas ocupacionales, enfermeras, y psicólogos sociales.
 </li>
-                <!-- Más destinatarios -->
             </ul>
-            <h5>¿Por Qué Elegir Este Seminario?</h5>
+            <h5 class="mt-4">¿Por Qué Elegir Este Seminario?</h5>
             <p>El equipo de profesionales que diseñó este taller es líder en el campo de la educación y la salud. Este curso está pensado específicamente para satisfacer las necesidades de recursos pedagógicos de docentes, terapeutas y coaches, entre otros. Al elegir este seminario, obtendrás:
 
             - Experiencia y Conocimiento Especializado: Nuestro equipo está compuesto por expertos con años de experiencia en la implementación de la ESI.
@@ -151,104 +142,11 @@
         </div>
     </div>
 </div>
+    <div class="whatsapp-spacer"></div>
+    <a href="https://wa.me/5491158123119?text=Hola%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios" class="whatsapp-button" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
-
-<!--     <div id="section3" class=" container mt-4">
-        <h2>Nosotros</h2>
-        <p>Nacemos con el firme compromiso de brindar soluciones a pacientes que necesitan cuidados en sus domicilios.
-            Nuestra empresa se basa en el desarrollo tecnológico, una rigurosa selección de recursos humanos, la
-            elaboración responsable de procesos y una gestión transparente y profesional con los financiadores. Estos
-            pilares son la base de nuestra creación y nuestro continuo crecimiento</p>
-
-    </div>
-
-    <div id="section4" class="container mt-4">
-        <h2>Quiénes Somos</h2>
-        <p>En el Instituto Elisa, somos pioneros en la educación a distancia y virtual, con una sólida trayectoria que nos
-        respalda como líderes en procesos educativos innovadores y efectivos. Nuestro equipo, compuesto por profesionales
-        altamente calificados en el ámbito educativo y terapéutico, está dedicado a brindar recursos pedagógicos y terapéuticos
-        de la más alta calidad.</p>
-        <h3>Nuestra Misión</h3>
-        <p>Nuestro objetivo primordial es capacitar a docentes, terapeutas y profesionales de la salud, proporcionándoles las
-        herramientas necesarias para enfrentar los desafíos de su práctica diaria. Nos especializamos en promover el desarrollo
-        personal, laboral y profesional a través de programas formativos que otorgan certificaciones reconocidas a nivel
-        nacional.</p>
-        <h3>Nuestro Enfoque</h3>
-        <p>Instituto Elisa fue creado para servir a toda la comunidad, con una visión inclusiva y orientada a la promoción
-        de valores fundamentales como <b>el respeto, la honestidad, la solidaridad, la responsabilidad, la empatía, la humildad, la
-        unidad, la tolerancia y la cooperación</b>. Nos dedicamos a capacitar a la población en temáticas de salud mental y
-        educación, fomentando la inclusión social y el respeto por las diversidades y los derechos humanos.</p>
-        <h3>Lo Que Nos Hace Especiales</h3>
-        <p>Nos destacamos por nuestro enfoque integral y personalizado en cada uno de nuestros programas. Nuestro Instituto cuenta
-        con un grupo de especialistas comprometidos con la calidad y el profesionalismo, asegurando que cada intervención
-        educativa y terapéutica sea efectiva y transformadora. Nuestro éxito se basa en cuatro pilares fundamentales:</p>
-        <p><strong>Elaboración Responsable de Procesos:</strong>
-        Diseñamos y ejecutamos nuestros programas con la máxima responsabilidad y atención
-        al detalle.</p>
-        <p><strong>Gestión Transparente y Profesional: </strong>Mantenemos una gestión clara y profesional, asegurando la confianza y satisfacción de nuestros financiadores y
-        participantes.</p>
-        <p><strong>Compromiso con la Comunidad:</strong> Estamos comprometidos con la creación de un entorno de aprendizaje inclusivo y solidario, donde cada participante puede
-        alcanzar su máximo potencial. A través de nuestras certificaciones, apoyamos el crecimiento continuo y el reconocimiento
-        profesional de nuestros alumnos, contribuyendo al desarrollo de una sociedad más justa y equitativa.</p>
-
-        <p><strong>Certificación:</strong>
-            Oficial Nacional, emitida por Asociación PSI. Enmarcado dentro de la Ley de Salud Mental nº 26.657 del Ministerio de Salud de la Nación. Y reconocido por el Ministerio de Trabajo y Acción Social de la Nación. (Resolución SE 1861/2011 – Cód. de Org. 98532116 – REGICE). No otorga puntaje docente.
-        </p>
-
-
-        </div> -->
-
-<!--         <div id="contacto" class="container mt-4">
-            <h2>Contacto</h2>
-            <p>Por favor, completa el siguiente formulario para ponerse en contacto con nosotros:</p>
-            <p>
-
-                Tambien puedes consultarnos al:
-
-                <a href="telefono">+5491158123119</a>
-
-            </p>
-            <p>
-
-                Nuestra dirección de correo electrónico es:
-
-                <a href="email">puebloalegrevoluntariado@gmail.com</a>
-
-            </p>
-            <form action="https://formspree.io/f/manwnyel" method="post">
-                <div>
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div>
-                    <label for="email">Correo Electrónico:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div>
-                    <label for="phone">Teléfono:</label>
-                    <input type="tel" id="phone" name="phone" required>
-                </div>
-                <div>
-                    <label for="subject">Asunto:</label>
-                    <input type="text" id="subject" name="subject" required>
-                </div>
-                <div>
-                    <label for="message">Mensaje:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <div>
-                    <button type="submit">Enviar</button>
-                </div>
-            </form>
-        </div> -->
-        <a href="https://wa.me/5491158123119?text=Hola%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios" class="whatsapp-button" target="_blank">
-            <i class="fab fa-whatsapp"></i>
-        </a>
-    </div>
-
-
-
-    <!-- Bootstrap and jQuery JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
