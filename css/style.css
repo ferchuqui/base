@@ -79,6 +79,28 @@ ol, ul {
     background-color: #0056B3;
 }
 
+/* Estilo del contenedor del botón */
+.cta-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Estilo del botón */
+.cta-button {
+  background-color: red; /* Color de fondo del botón */
+  color: white; /* Color del texto */
+  padding: 15px 25px; /* Espaciado interno del botón */
+  text-decoration: none; /* Quitar subrayado del enlace */
+  font-size: 18px; /* Tamaño de la fuente */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+  transition: background-color 0.3s ease; /* Transición de color */
+}
+
+.cta-button:hover {
+  background-color: #e04e2c; /* Color de fondo al pasar el mouse */
+}
+
 .figure {
     padding: 20px;
     border-radius: 8px;
@@ -140,7 +162,7 @@ ol, ul {
     height: 50px;
     width: 100%;
 }
-    
+
 .whatsapp-button {
     position: fixed;
     bottom: 30px;
@@ -162,14 +184,26 @@ ol, ul {
 }
 
 .text-green {
-    color: #28a745; 
+    color: #28a745;
 }
 
 .text-blue {
-    color: #3498db; 
+    color: #3498db;
 }
 .navbar-brand {
     gap: 8px;
+}
+
+.image-container {
+  text-align: center; /* Centra la imagen horizontalmente */
+  margin: 20px 0; /* Márgenes superior e inferior */
+}
+
+/* Imagen responsiva */
+.responsive-image {
+  width: 100%; /* Ancho por defecto para pantallas grandes y medianas */
+  max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
 }
 
 @media (min-width: 769px) and (max-width: 1024){
@@ -177,5 +211,8 @@ ol, ul {
         width: 40%;
         margin: 10px 0;
     }
+      .responsive-image {
+        width: 90%; /* Ancho para pantallas pequeñas */
+      }
 
  }
